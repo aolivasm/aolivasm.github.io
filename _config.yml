@@ -41,7 +41,10 @@ plugins:
 
 author:
   name   : "Antonio Olivas-Martinez"
-  avatar : "/assets/images/bio-antonio.jpg"
+  avatar : 
+    image: "/assets/images/bio-antonio.jpg"
+    show_avatar: true
+    size: 200
   bio    : "Doctoral candidate at UW Biostatistics. Interested in causal inference, vaccine trials, and health data science."
   links:
     - label: "LinkedIn"
