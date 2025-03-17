@@ -1,4 +1,4 @@
-title: "Antonio Olivas' Academic Website"
+title: "Personal Academic Website"
 email: antonio.olivas@gmail.com
 description: "Personal Academic Website"
 twitter_username: antonio_olivasm
@@ -40,34 +40,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Antonio Olivas-Martinez"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Doctoral candidate at UW Biostatistics. Interested in causal inference, vaccine trials, and health data science."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/antonio_olivasm"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/aolivasm"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/antonio_olivasm"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/aolivasm"
 
 defaults:
   # _posts
@@ -91,7 +82,4 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+  path: /Publications/
