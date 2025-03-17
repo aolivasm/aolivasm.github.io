@@ -53,6 +53,12 @@ author:
 
 footer:
   links:
+   - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/antonio-olivas-martinez-490236198/"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Antonio-Olivas-Martinez"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/antonio_olivasm"
@@ -82,4 +88,7 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /Publications/
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
