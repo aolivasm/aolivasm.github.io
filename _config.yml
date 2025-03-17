@@ -1,4 +1,4 @@
-title: "Personal Academic Website"
+title: "Antonio Olivas' Website"
 email: antonio.olivas@gmail.com
 description: "Personal Academic Website"
 twitter_username: antonio_olivasm
@@ -44,6 +44,12 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Doctoral candidate at UW Biostatistics. Interested in causal inference, vaccine trials, and health data science."
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/antonio-olivas-martinez-490236198/"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Antonio-Olivas-Martinez"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/antonio_olivasm"
