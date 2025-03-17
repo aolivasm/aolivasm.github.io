@@ -53,7 +53,7 @@ author:
 
 footer:
   links:
-   - label: "LinkedIn"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/antonio-olivas-martinez-490236198/"
     - label: "ResearchGate"
