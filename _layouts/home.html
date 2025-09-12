@@ -2,42 +2,36 @@
 layout: default
 ---
 
-<div class="home-profile container">
+<div class="home-page-content">
 
-  <div class="row">
+  {% assign about_page = site.pages | where: "title", "About" | first %}
+  {% if about_page %}
+    <div class="home-columns" style="display:flex; gap:2rem; align-items:flex-start;">
 
-    <!-- Left Column: Author info -->
-    <div class="col-sm-4 text-center">
-      {% if site.author.avatar %}
-        <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:15px;">
-      {% endif %}
-
-      <h2>{{ site.author.name }}</h2>
-      <p>{{ site.author.bio }}</p>
-
-      {% if site.author.links %}
-        <ul style="list-style:none; padding:0; display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:15px;">
+      <!-- Left column: author profile -->
+      <div class="left-column" style="flex:0 0 250px;">
+        <img class="author-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}" style="width:100%; height:auto; border-radius:50%; margin-bottom:1rem;">
+        <h1>{{ site.author.name }}</h1>
+        <p>{{ site.author.bio }}</p>
+        <ul class="author-links" style="list-style:none; padding-left:0;">
           {% for link in site.author.links %}
-            <li>
-              <a href="{{ link.url }}" target="_blank" style="text-decoration:none;">
+            <li style="margin-bottom:0.5rem;">
+              <a href="{{ link.url }}" target="_blank">
                 <i class="{{ link.icon }}"></i> {{ link.label }}
               </a>
             </li>
           {% endfor %}
         </ul>
-      {% endif %}
-    </div>
+      </div>
 
-    <!-- Right Column: About page content -->
-    <div class="col-sm-8">
-      {% assign about_page = site.pages | where: "title", "About" | first %}
-      {% if about_page %}
+      <!-- Right column: About page content -->
+      <div class="right-column" style="flex:1;">
         {{ about_page.content | markdownify }}
-      {% else %}
-        <p>No About page found.</p>
-      {% endif %}
-    </div>
+      </div>
 
-  </div>
+    </div>
+  {% else %}
+    <p>About page not found.</p>
+  {% endif %}
 
 </div>
