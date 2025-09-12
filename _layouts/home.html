@@ -2,36 +2,29 @@
 layout: default
 ---
 
-<div class="home-page-content">
+<div class="home-container" style="display: flex; flex-wrap: wrap; max-width: 1200px; margin: 0 auto; gap: 2rem; padding: 2rem;">
+  
+  <!-- Left column: Author profile -->
+  <div class="home-profile" style="flex: 1 1 250px; max-width: 300px; min-width: 200px;">
+    <img class="author-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}" style="width:100%; border-radius: 50%; margin-bottom: 1rem;">
+    <h1>{{ site.author.name }}</h1>
+    <p>{{ site.author.bio }}</p>
 
-  {% assign about_page = site.pages | where: "title", "About" | first %}
-  {% if about_page %}
-    <div class="home-columns" style="display:flex; gap:2rem; align-items:flex-start;">
+    <ul class="author-links" style="list-style: none; padding: 0; margin-top: 1rem;">
+      {% for link in site.author.links %}
+        <li style="margin-bottom: 0.5rem;">
+          <a href="{{ link.url }}" target="_blank" style="text-decoration: none; color: inherit;">
+            <i class="{{ link.icon }}"></i> {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 
-      <!-- Left column: author profile -->
-      <div class="left-column" style="flex:0 0 250px;">
-        <img class="author-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}" style="width:100%; height:auto; border-radius:50%; margin-bottom:1rem;">
-        <h1>{{ site.author.name }}</h1>
-        <p>{{ site.author.bio }}</p>
-        <ul class="author-links" style="list-style:none; padding-left:0;">
-          {% for link in site.author.links %}
-            <li style="margin-bottom:0.5rem;">
-              <a href="{{ link.url }}" target="_blank">
-                <i class="{{ link.icon }}"></i> {{ link.label }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <!-- Right column: About page content -->
-      <div class="right-column" style="flex:1;">
-        {{ about_page.content | markdownify }}
-      </div>
-
-    </div>
-  {% else %}
-    <p>About page not found.</p>
-  {% endif %}
+  <!-- Right column: About content -->
+  <div class="home-about" style="flex: 2 1 600px; min-width: 300px;">
+    {% assign about_page = site.pages | where: "title", "About" | first %}
+    {{ about_page.content | markdownify }}
+  </div>
 
 </div>
