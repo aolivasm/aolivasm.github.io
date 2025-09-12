@@ -3,14 +3,17 @@ permalink: /about/
 title: "About"
 ---
 
-I am a PhD candidate in **Biostatistics** at the **University of Washington**, with a background in **Mathematics** (University of Sonora) and **Internal Medicine** (INCMNSZ/UNAM). My primary research focuses on extending the **proximal causal inference** framework to estimate causal effects of continuous exposures. This framework, which leverages strong proxies for unmeasured confounders, has been widely applied to other causal estimands. My work specifically aims to refine and develop methods for causal inference in the context of continuous exposures. A major application of this work is identifying **correlates of protection in vaccine trials**, where the goal is to uncover immune markers that reliably predict vaccine efficacy and improve trial design.
+I am a **biostatistician (PhD, University of Washington)** and **medical doctor (internal medicine, INCMNSZ/UNAM)** with a background in **Mathematics (University of Sonora)**. My PhD dissertation, *Advances in Proximal Inference for Continuous Exposures, Estimation of Ill-Posed Regression, and Non-Inferiority Assessment in Active-Controlled Trials*, was supervised by **Dr. Andrea Rotnitzky** (proximal inference and ill-posed regression) and **Dr. Holly Janes** (non-inferiority trials).
 
-In addition to my core research, I have contributed to several collaborative projects, including:
+I am currently a **Postdoctoral Researcher** at the **Center for Causal Inference at the University of Pennsylvania**, working on statistical methods for predicting outcomes of *in vitro* fertilization therapy.
 
-- **Non-Inferiority Trials**: Developing a framework for non-inferiority assessment of new interventions in active-controlled trials with **Dr. Holly Janes**.
-- **Cardiac Resynchronization Therapy**: Leading individual patient data meta-analyses to evaluate benefits for heart failure patients with **Dr. Lurdes Inoue**.
-- **Cancer Screening**: Investigating biases in test sensitivity estimates with **Dr. Ruth Etzioni**.
+My research has focused on **causal inference**, **machine learning**, **clinical trials**, and **cancer screening**, with applications including:
 
-I also collaborate with the **INCMNSZ** on research related to **COVID-19**, **HIV/AIDS**, **antimicrobial resistance**, **cancer**, and **gastrointestinal diseases**. Additionally, I am a member of **Mexicans in Statistics and Health**, a group focused on making complex scientific topics accessible to a broader audience.
+- **Correlates of Protection in Vaccine Trials**: Identifying immune markers that reliably predict vaccine efficacy and allow for unmeasured confounding.
+- **Non-Inferiority Trials**: Developing a framework for assessing non-inferiority of new interventions with active-controlled trials.
+- **Cardiac Resynchronization Therapy**: Conducting individual patient data meta-analyses to assess benefits of cardiac resynchronization therapy in patients with heart failure.
+- **Cancer Screening**: Investigating bias in test sensitivity estimates.
 
-My research interests include **proximal causal inference**, **semiparametric efficiency theory**, **machine learning**, **clinical trials**, and **screening tests**, with a focus on advancing statistical methods to improve health outcomes.
+I also collaborate with the **INCMNSZ** on research related to **COVID-19**, **HIV/AIDS**, **antimicrobial resistance**, **cancer**, and **gastrointestinal diseases**. Additionally, I am a member of **Mexicans in Statistics and Health**, a group dedicated to making complex scientific topics accessible to a broader audience.
+
+My research interests include **causal inference**, **machine learning**, **clinical trials**, and **screening tests**, with a focus on advancing statistical methods to improve health outcomes.
