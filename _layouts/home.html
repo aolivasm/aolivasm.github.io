@@ -2,32 +2,42 @@
 layout: default
 ---
 
-<div class="home-profile">
-  {% include home-header.html %}
-  
-  <div class="author-profile">
-    <img class="author-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
-    <h1>{{ site.author.name }}</h1>
-    <p>{{ site.author.bio }}</p>
+<div class="home-profile container">
 
-    <ul class="author-links">
-      {% for link in site.author.links %}
-        <li>
-          <a href="{{ link.url }}" target="_blank">
-            <i class="{{ link.icon }}"></i> {{ link.label }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+  <div class="row">
+
+    <!-- Left Column: Author info -->
+    <div class="col-sm-4 text-center">
+      {% if site.author.avatar %}
+        <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}" style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:15px;">
+      {% endif %}
+
+      <h2>{{ site.author.name }}</h2>
+      <p>{{ site.author.bio }}</p>
+
+      {% if site.author.links %}
+        <ul style="list-style:none; padding:0; display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-top:15px;">
+          {% for link in site.author.links %}
+            <li>
+              <a href="{{ link.url }}" target="_blank" style="text-decoration:none;">
+                <i class="{{ link.icon }}"></i> {{ link.label }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+
+    <!-- Right Column: About page content -->
+    <div class="col-sm-8">
+      {% assign about_page = site.pages | where: "title", "About" | first %}
+      {% if about_page %}
+        {{ about_page.content | markdownify }}
+      {% else %}
+        <p>No About page found.</p>
+      {% endif %}
+    </div>
+
   </div>
-  
-  <!-- Optional: show recent posts -->
-  <div class="recent-posts">
-    <h2>Recent Posts</h2>
-    <ul>
-      {% for post in site.posts limit:5 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+
 </div>
