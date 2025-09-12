@@ -10,9 +10,14 @@ layout: default
     <h1>{{ site.author.name }}</h1>
     <p>{{ site.author.bio }}</p>
 
-    <div class="author-links">
-      {% include social.html %}
-    </div>
+    <ul class="author-links" style="list-style: none; padding: 0; margin-top: 1rem;">
+      {% for link in site.author.links %} <li style="margin-bottom: 0.5rem;">
+        <a href="{{ link.url }}" target="_blank" style="text-decoration: none;">
+          <i class="{{ link.icon }}"></i> {{ link.label }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 
   <!-- Right column: About content -->
