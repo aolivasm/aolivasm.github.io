@@ -1,5 +1,5 @@
 title: "Antonio Olivas' Website"
-email: antonio.olivas@gmail.com
+email: aolivasm@upenn.edu
 description: "Personal Academic Website"
 twitter_username: antonio_olivasm
 github_username: aolivasm
@@ -42,7 +42,7 @@ plugins:
 author:
   name   : "Antonio Olivas-Martinez"
   avatar : "/assets/images/bio-antonio.jpg"
-  bio    : "Doctoral candidate at UW Biostatistics. Interested in proximal causal inference, vaccine trials, and health sciences."
+  bio    : "Postdoctoral Researcher at the Center for Causal Inference, UPenn. Interested in proximal causal inference and prediction methods for clinical research."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
