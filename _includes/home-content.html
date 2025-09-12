@@ -1,0 +1,19 @@
+<div class="about-section">
+  {% if site.author.avatar %}
+    <img src="{{ site.author.avatar }}" alt="Profile picture" style="width:150px; border-radius:50%;">
+  {% endif %}
+  <h2>About Me</h2>
+  <p>{{ site.author.bio }}</p>
+
+  {% if site.author.links %}
+    <ul class="social-links">
+      {% for link in site.author.links %}
+        <li>
+          <a href="{{ link.url }}" target="_blank">
+            <i class="{{ link.icon }}"></i> {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
