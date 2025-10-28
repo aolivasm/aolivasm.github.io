@@ -14,6 +14,9 @@ author_profile: true
   [arXiv](https://arxiv.org/abs/2510.22071)
 
 ## Collaborative Projects
+- **Immune Correlates and Vaccine Immunobridging: Statistical Innovations, Challenges, and Opportunities** — Co-author, *The Journal of infectious diseases* (2025). 
+  Overview of recent statistical developments relevant to immunobridging, including variable importance prediction for correlates of risk, controlled risk causal analysis for correlates of protection, and vaccine efficacy transportability methods.
+  [DOI](https://doi.org/10.1093/infdis/jiaf451)
 - **Test Sensitivity in a Prospective Cancer Screening Program: A Critique of a Common Proxy Measure** — Co-author, *Statistical Methods in Medical Research* (2023).  
   *Analyzed the relationship between empirical and true sensitivity in cancer screening programs, clarifying conditions under which proxy measures can misrepresent diagnostic performance.*  
   [DOI](https://doi.org/10.1177/09622802221142529)
