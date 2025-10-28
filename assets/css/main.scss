@@ -8,16 +8,16 @@
 
 /* Reduce font size for post/page content */
 .page__content {
-  font-size: 0.9rem;   /* default is ~1rem */
+  font-size: 0.75rem;   /* default is ~1rem */
   line-height: 1.5;
 }
 
 /* Optionally, adjust the size of list items in the publications list */
 .page__content li {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
 }
 
 /* Optional: slightly smaller font for meta or bylines */
 .page__meta, .page__lead {
-  font-size: 0.85rem;
+  font-size: 0.65rem;
 }
