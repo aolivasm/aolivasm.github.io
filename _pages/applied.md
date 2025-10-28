@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-# Applied Research
-
 ## Cardiac Resynchronization Therapy (CRT)
 - Sudesh S, Abraham WT, Cleland JG, Curtis AB, Friedman DJ, Gold MR, Kutyifa V, Linde C, Tang AS, Olivas-Martinez A, Inoue LYT. *Cardiac resynchronization therapy in ischemic versus nonischemic cardiomyopathy: patient-level meta-analysis of 7 randomized clinical trials.* Heart Failure. 2024;12(11):1915–24.
 - Shivakumar N, Friedman DJ, Fudim M, Abraham WT, Cleland JGF, Curtis AB, Gold MR, Kutyifa V, Linde C, Young J, Tang A, Olivas-Martinez A, Inoue LYT, Sanders SD, Al-Khatib SM. *Outcomes of Cardiac Resynchronization Therapy by New York Heart Association Class: A Patient-Level Meta-Analysis.* J Am Heart Assoc. 2024;13(15):e031785. [DOI](https://doi.org/10.1161/JAHA.123.031785)
