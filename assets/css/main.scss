@@ -1,0 +1,23 @@
+---
+# Only front matter so Jekyll processes this file
+---
+
+@import "minimal-mistakes";  /* loads the theme’s base styles */
+
+/* ==== Your custom overrides below ==== */
+
+/* Reduce font size for post/page content */
+.page__content {
+  font-size: 0.9rem;   /* default is ~1rem */
+  line-height: 1.5;
+}
+
+/* Optionally, adjust the size of list items in the publications list */
+.page__content li {
+  font-size: 0.9rem;
+}
+
+/* Optional: slightly smaller font for meta or bylines */
+.page__meta, .page__lead {
+  font-size: 0.85rem;
+}
