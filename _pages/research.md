@@ -9,6 +9,9 @@ author_profile: true
 - **Source-Condition Analysis of Kernel Adversarial Estimators** — *arXiv preprint* (2025).  
   *Finite-sample analysis of RKHS-regularized adversarial estimators for ill-posed regression, comparing stability and assumptions with existing methods.*  
   [arXiv](https://arxiv.org/abs/2508.17181)
+- **A General Framework for Designing and Evaluating Active-Controlled Trials with Non-Inferiority Objectives** — *arXiv preprint* (2025).  
+  *Framework integrating existing analytical methods and success criteria, enabling systematic comparison of type I error, power, and robustness, and providing a toolkit for rigorous non-inferiority trial design and method selection.*  
+  [arXiv](https://arxiv.org/abs/2510.22071)
 
 ## Collaborative Projects
 - **Test Sensitivity in a Prospective Cancer Screening Program: A Critique of a Common Proxy Measure** — Co-author, *Statistical Methods in Medical Research* (2023).  
