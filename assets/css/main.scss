@@ -22,9 +22,13 @@
   font-size: 0.65rem;
 }
 
-/* Custom avatar size override */
+/* Force larger profile picture for all author sections */
+.about-section img,
+.author-profile img,
 .author-profile__image {
-  width: 250px !important; /* your preferred size */
-  max-width: 100%;
-  border-radius: 50%;
+  width: 250px !important;   /* change this to your desired size */
+  max-width: 100%;           /* keeps it responsive */
+  border-radius: 50%;        /* keeps it circular */
+  display: block;
+  margin: 0 auto 1rem;       /* center horizontally */
 }
