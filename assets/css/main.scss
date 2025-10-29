@@ -22,11 +22,9 @@
   font-size: 0.65rem;
 }
 
-/* ==== Custom profile picture size ==== */
-.about-section img {
-  width: 250px;       /* adjust to your preferred size */
-  max-width: 100%;    /* ensures it doesn’t overflow on small screens */
-  border-radius: 50%; /* keeps it circular */
-  display: block;     /* centers if you add margin auto */
-  margin: 0 auto 1rem; /* optional: centers and adds space below */
+/* Custom avatar size override */
+.author-profile__image {
+  width: 250px !important; /* your preferred size */
+  max-width: 100%;
+  border-radius: 50%;
 }
