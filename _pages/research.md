@@ -9,7 +9,7 @@ author_profile: true
 - **Source-Condition Analysis of Kernel Adversarial Estimators** — *arXiv preprint* (2025).  
   *Finite-sample analysis of RKHS-regularized adversarial estimators for ill-posed regression, comparing stability and assumptions with existing methods.*  
   [arXiv](https://arxiv.org/abs/2508.17181)
-- **Proximal Causal Infefencd for Modified Treatment Policies** — *arXiv preprint* (2025).  
+- **Proximal Causal Inference for Modified Treatment Policies** — *arXiv preprint* (2025).  
   *Extends proximal causal inference to estimate mean outcomes under modified treatment regimes with continuous exposures and unmeasured confounding, leveraging negative controls and debiased machine learning with flexible nonparametric nuisance estimation, motivated by vaccine immunobridging studies.*  
   [arXiv](https://arxiv.org/abs/2512.12038)
 - **A General Framework for Designing and Evaluating Active-Controlled Trials with Non-Inferiority Objectives** — *arXiv preprint* (2025).  
