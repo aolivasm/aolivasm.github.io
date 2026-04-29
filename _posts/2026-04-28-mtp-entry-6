@@ -1,0 +1,108 @@
+---
+title: "The Clinician’s Guide to MTPs: Entry 6 – The Fine Print: Three Rules for Trustworthy Results"
+categories:
+  - Blog
+tags:
+  - MTP
+  - Causal Inference
+  - Assumptions
+---
+
+We’ve seen that **Modified Treatment Policies (MTPs)** allow us to evaluate realistic medical changes—like 15-minute surgical reductions or 5% weight loss. But as with any clinical evidence, the validity of these results depends on a few ground rules.
+
+When we use an MTP, we are making three implicit promises about our data and our policy. If these rules are broken, our "causal" conclusions might just be statistical noise.
+
+### Rule 1: The "Real-World" Check (Positivity)
+In simple terms: **You cannot study what you haven’t seen.**
+
+The policy must only "shift" patients to treatment levels that we actually observed in our data. Crucially, this must hold true for **every type of patient profile** (or "stratum") in the study. 
+
+If we are shifting surgical times for 80-year-old patients with heart disease, we must actually have data on similar 80-year-olds who naturally had those shorter times. If the **Shifted Distribution** moves into a "ghost zone" where no **Observed Distribution** exists for that specific patient profile, we have no real-world evidence to learn from.
+
+### Rule 2: The "Fair Comparison" Rule (Exchangeability)
+To trust our results, we must ensure we are comparing apples to apples. This requires identifying and measuring all **confounders**. 
+
+> **What is a Confounder?** A confounder is a factor—like age or disease severity—that influences **both** the treatment (surgery duration) and the outcome (the complication). If not accounted for, a confounder will "confuse" the investigator by distorting the true relationship. It can make an ineffective treatment look effective, or an unharmful one look harmful.
+
+This is the "Big Ask" of all causal inference. Whether you are using MTPs or traditional methods, you are assuming there are **no hidden ghosts** influencing both the exposure and the outcome.
+
+As we saw in our vaccine entry, this assumption is often under fire. Subject matter knowledge and clinical expertise are the only tools we have to decide if we’ve measured enough. If a major biological factor is missing, the "comparison" is no longer fair.
+
+### Rule 3: The "No-Collapse" Rule (Smoothness)
+So far, we have mostly discussed simple shifts (adding or subtracting a fixed amount). However, MTPs can be much more general. In our last entry, we saw a policy that only shifted people above a certain BMI threshold while doing nothing for those below it. As long as a policy is **smooth** and **invertible** (meaning we can "undo" the shift mathematically), it is generally valid.
+
+The most common way this rule is broken is through a **Collapsible Policy**. A valid policy should not "crush" or "collapse" a whole range of different observed values into one single point (like forcing everyone with a BMI between 30 and 35 to be exactly 25). This creates a "Data Pile-up," making the statistical results unreliable.
+
+We will see some clinical interventions that differ from strict fixed shifts in our next entry, but they all must respect this "No-Collapse" requirement to provide a valid result.
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" style="width: 100%; height: auto; font-family: Arial, sans-serif; margin: 2rem 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-radius: 12px; background: #ffffff;">
+  <text x="450" y="40" font-size="22" font-weight="bold" fill="#2c3e50" text-anchor="middle">The Three Rules of a Valid MTP</text>
+
+  <g transform="translate(50, 80)">
+    <rect width="250" height="380" fill="#f8f9fa" rx="10" stroke="#dee2e6"/>
+    <text x="125" y="30" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">1. Positivity</text>
+    <text x="125" y="50" font-size="12" fill="#7f8c8d" text-anchor="middle">"The Real-World Check"</text>
+    
+    <path d="M 30 320 Q 100 190 170 320" fill="#bdc3c7" opacity="0.4" stroke="#7f8c8d" stroke-width="2"/>
+    <text x="70" y="260" font-size="10" fill="#7f8c8d" font-weight="bold">Observed</text>
+    <path d="M 60 320 Q 130 190 200 320" fill="#3498db" opacity="0.3" stroke="#2980b9" stroke-width="2"/>
+    <text x="170" y="260" font-size="10" fill="#2980b9" font-weight="bold">Shifted</text>
+    
+    <rect x="50" y="80" width="150" height="25" fill="#ffffff" stroke="#34495e" rx="5" stroke-dasharray="2"/>
+    <text x="125" y="97" font-size="10" fill="#34495e" text-anchor="middle" font-style="italic">Within "Patient Profile"</text>
+    
+    <text x="125" y="355" font-size="10" fill="#34495e" text-anchor="middle">The shift must exist for</text>
+    <text x="125" y="370" font-size="10" fill="#34495e" text-anchor="middle">every specific patient type.</text>
+  </g>
+
+  <g transform="translate(325, 80)">
+    <rect width="250" height="380" fill="#f8f9fa" rx="10" stroke="#dee2e6"/>
+    <text x="125" y="30" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">2. Exchangeability</text>
+    <text x="125" y="50" font-size="12" fill="#7f8c8d" text-anchor="middle">"The Fair Comparison"</text>
+    
+    <line x1="50" y1="310" x2="200" y2="310" stroke="#34495e" stroke-width="3"/>
+    <path d="M 125 310 L 110 340 L 140 340 Z" fill="#34495e"/>
+    
+    <circle cx="75" cy="295" r="12" fill="#e67e22" opacity="0.8"/>
+    <text x="75" y="275" font-size="12" fill="#2c3e50" text-anchor="middle" font-weight="bold">a</text>
+    <circle cx="175" cy="295" r="12" fill="#e67e22" opacity="0.8"/>
+    <text x="175" y="275" font-size="12" fill="#2c3e50" text-anchor="middle" font-weight="bold">a + δ</text>
+    
+    <path d="M 125 100 Q 110 100 110 120 Q 110 140 125 140 Q 140 140 140 120 Q 140 100 125 100" fill="#bdc3c7" opacity="0.5"/>
+    <text x="125" y="160" font-size="12" fill="#7f8c8d" font-weight="bold" text-anchor="middle">Hidden Ghost</text>
+    <text x="125" y="175" font-size="9" fill="#7f8c8d" text-anchor="middle">(Confounder)</text>
+    
+    <path d="M 115 145 L 85 240" stroke="#c0392b" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+    <path d="M 135 145 L 165 240" stroke="#c0392b" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+    <text x="125" y="215" font-size="9" fill="#c0392b" font-weight="bold" text-anchor="middle">Influences BOTH</text>
+
+    <text x="125" y="355" font-size="10" fill="#34495e" text-anchor="middle">Comparison is distorted if</text>
+    <text x="125" y="370" font-size="10" fill="#34495e" text-anchor="middle">ghosts are not accounted for.</text>
+  </g>
+
+  <g transform="translate(600, 80)">
+    <rect width="250" height="380" fill="#f8f9fa" rx="10" stroke="#dee2e6"/>
+    <text x="125" y="30" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">3. The No-Collapse Rule</text>
+    <text x="125" y="50" font-size="12" fill="#7f8c8d" text-anchor="middle">"Non-Collapsible Policy"</text>
+    
+    <path d="M 40 320 Q 125 190 210 320" fill="none" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="4"/>
+    <rect x="90" y="315" width="70" height="10" fill="#c0392b" opacity="0.2"/>
+    
+    <path d="M 90 310 L 123 225 M 160 310 L 127 225" stroke="#c0392b" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="125" y1="320" x2="125" y2="220" stroke="#c0392b" stroke-width="4"/>
+    <text x="125" y="210" font-size="11" fill="#c0392b" font-weight="bold" text-anchor="middle">Data Pile-Up</text>
+    
+    <text x="125" y="355" font-size="10" fill="#34495e" text-anchor="middle">Don't crush a range of values</text>
+    <text x="125" y="370" font-size="10" fill="#34495e" text-anchor="middle">into a single point.</text>
+  </g>
+  
+  <defs>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c0392b" />
+    </marker>
+  </defs>
+</svg>
+
+
+**References:**
+* Haneuse, S., & Rotnitzky, A. (2013). Estimation of the effect of interventions that modify the received treatment. *Statistics in Medicine*.
