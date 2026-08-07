@@ -1,6 +1,11 @@
-title: "Antonio Olivas' Website"
+title: "Antonio Olivas-Martinez"
+title_separator: "|"
 email: aolivasm@upenn.edu
-description: "Personal Academic Website"
+description: "Biostatistician and physician developing causal inference, clinical trial, and prediction methods for health research."
+url: "https://aolivasm.github.io"
+baseurl: ""
+repository: "aolivasm/aolivasm.github.io"
+locale: "en-US"
 twitter_username: antonio_olivasm
 github_username: aolivasm
 minimal_mistakes_skin: default
@@ -16,7 +21,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 include:
   - _pages
@@ -44,17 +49,24 @@ plugins:
 author:
   name   : "Antonio Olivas-Martinez"
   avatar : "/assets/images/bio-antonio.jpg"
-  bio    : "Postdoctoral Researcher at the Center for Causal Inference, UPenn. Interested in proximal causal inference and prediction methods for clinical research."
+  bio    : "Biostatistician and physician developing causal inference and prediction methods for health research."
+  location: "Philadelphia, Pennsylvania"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:aolivasm@upenn.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/antonio-olivas-martinez-490236198/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=ItjU968AAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0003-2779-0068"
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Antonio-Olivas-Martinez"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/antonio_olivasm"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aolivasm"
@@ -67,9 +79,6 @@ footer:
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Antonio-Olivas-Martinez"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/antonio_olivasm"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aolivasm"

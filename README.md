@@ -1,27 +1,25 @@
-# Minimal Mistakes remote theme starter
+# Antonio Olivas-Martinez — Academic Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Source for [aolivasm.github.io](https://aolivasm.github.io), the professional website of Antonio Olivas-Martinez, a biostatistician, physician, and postdoctoral researcher at the University of Pennsylvania.
 
-Contains basic configuration to get you a site with:
+The site highlights:
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- methodological research in causal inference and clinical trials;
+- research software for proximal modified treatment policies and non-inferiority trial design;
+- selected applied biomedical collaborations; and
+- a scientific communication series on modified treatment policies.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Local development
 
----
+This is a Jekyll site built with the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) remote theme and the GitHub Pages gem.
 
-## Troubleshooting
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+Then open `http://127.0.0.1:4000`.
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+## Publishing
+
+GitHub Pages publishes the site from the repository’s default branch. Review changes locally before merging or pushing them to the publishing branch.

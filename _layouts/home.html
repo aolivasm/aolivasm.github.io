@@ -2,10 +2,124 @@
 layout: single
 ---
 
-<div class="page-wrapper">
-  <!-- Main content column -->
-  <main class="page-content">
-    {% assign about_page = site.pages | where: "title", "About" | first %}
-    {{ about_page.content | markdownify }}
-  </main>
+<div class="profile-home">
+  <section class="profile-hero" aria-labelledby="profile-heading">
+    <div class="profile-hero__copy">
+      <p class="profile-eyebrow">Biostatistician · Physician · Causal inference researcher</p>
+      <h1 id="profile-heading">Building better statistical evidence for consequential health decisions.</h1>
+      <p class="profile-hero__lead">
+        I bridge statistical theory and clinical practice to develop methods for problems where standard approaches fall short—from unmeasured confounding and non-inferiority trials to individualized prediction in reproductive health.
+      </p>
+      <p class="profile-hero__role">
+        Postdoctoral Researcher in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania, affiliated with the Center for Causal Inference and CHIRP.
+      </p>
+      <div class="profile-actions" aria-label="Primary links">
+        <a class="profile-button profile-button--primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
+        <a class="profile-button profile-button--secondary" href="mailto:{{ site.email }}">Email me</a>
+      </div>
+      <ul class="profile-credentials" aria-label="Background and tools">
+        <li>PhD in Biostatistics</li>
+        <li>Physician trained in Internal Medicine</li>
+        <li>R · Python · SQL</li>
+      </ul>
+    </div>
+    <div class="profile-hero__portrait">
+      <img src="{{ site.author.avatar | relative_url }}" alt="Antonio Olivas-Martinez" width="600" height="800">
+      <div class="profile-hero__links" aria-label="Professional profiles">
+        <a href="https://scholar.google.com/citations?user=ItjU968AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://orcid.org/0000-0003-2779-0068" target="_blank" rel="noopener noreferrer">ORCID</a>
+        <a href="https://github.com/aolivasm" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile-section" aria-labelledby="focus-heading">
+    <div class="profile-section__intro">
+      <p class="profile-kicker">Research focus</p>
+      <h2 id="focus-heading">Methods shaped by real clinical questions</h2>
+      <p>My work connects methodological rigor with the practical constraints of biomedical research.</p>
+    </div>
+    <div class="profile-card-grid">
+      <article class="profile-card">
+        <span class="profile-card__number">01</span>
+        <h3>Causal inference</h3>
+        <p>Proximal causal inference, modified treatment policies, semiparametric theory, and estimation for ill-posed inverse problems.</p>
+      </article>
+      <article class="profile-card">
+        <span class="profile-card__number">02</span>
+        <h3>Clinical trial methods</h3>
+        <p>Design and evaluation of active-controlled non-inferiority trials, with applications to HIV prevention and vaccine immunobridging.</p>
+      </article>
+      <article class="profile-card">
+        <span class="profile-card__number">03</span>
+        <h3>Prediction and collaboration</h3>
+        <p>Prediction for IVF outcomes and collaborative studies in cancer screening, cardiac resynchronization therapy, and infectious disease.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="profile-section profile-section--tinted" aria-labelledby="selected-work-heading">
+    <div class="profile-section__intro profile-section__intro--split">
+      <div>
+        <p class="profile-kicker">Selected work</p>
+        <h2 id="selected-work-heading">Research, software, and translation</h2>
+      </div>
+      <a class="profile-text-link" href="{{ '/research/' | relative_url }}">View all selected research <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="profile-work-list">
+      <article class="profile-work-item">
+        <div>
+          <p class="profile-work-item__meta">Causal inference · Preprint + R implementation</p>
+          <h3>Proximal Causal Inference for Modified Treatment Policies</h3>
+          <p>Extends proximal causal inference to continuous exposures and realistic treatment modifications in the presence of unmeasured confounding.</p>
+        </div>
+        <div class="profile-work-item__links">
+          <a href="https://arxiv.org/abs/2512.12038" target="_blank" rel="noopener noreferrer">Paper</a>
+          <a href="https://github.com/aolivasm/proxi-mtp" target="_blank" rel="noopener noreferrer">Code</a>
+        </div>
+      </article>
+      <article class="profile-work-item">
+        <div>
+          <p class="profile-work-item__meta">Clinical trials · Statistics in Medicine, 2026</p>
+          <h3>A General Framework for Active-Controlled Non-Inferiority Trials</h3>
+          <p>Unifies common analysis methods and success criteria to compare type I error, power, robustness, and design trade-offs.</p>
+        </div>
+        <div class="profile-work-item__links">
+          <a href="https://doi.org/10.1002/sim.70618" target="_blank" rel="noopener noreferrer">Paper</a>
+          <a href="https://github.com/aolivasm/ni-design" target="_blank" rel="noopener noreferrer">Code</a>
+        </div>
+      </article>
+      <article class="profile-work-item">
+        <div>
+          <p class="profile-work-item__meta">Statistical theory · Preprint</p>
+          <h3>Source-Condition Analysis of Kernel Adversarial Estimators</h3>
+          <p>Provides finite-sample error bounds for RKHS-regularized adversarial estimators in ill-posed regression problems.</p>
+        </div>
+        <div class="profile-work-item__links">
+          <a href="https://arxiv.org/abs/2508.17181" target="_blank" rel="noopener noreferrer">Paper</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="profile-section profile-section--compact" aria-labelledby="writing-heading">
+    <div class="profile-callout">
+      <div>
+        <p class="profile-kicker">Scientific communication</p>
+        <h2 id="writing-heading">The Clinician’s Guide to Modified Treatment Policies</h2>
+        <p>A ten-part series translating a technical causal inference framework into clinically grounded language, examples, and visual explanations.</p>
+      </div>
+      <a class="profile-button profile-button--secondary" href="{{ '/blog/' | relative_url }}">Read the series</a>
+    </div>
+  </section>
+
+  <section class="profile-contact" aria-labelledby="contact-heading">
+    <p class="profile-kicker">Connect</p>
+    <h2 id="contact-heading">Interested in rigorous methods for real health problems?</h2>
+    <p>I welcome conversations about causal inference, clinical trial methodology, prediction, and collaborative biomedical research.</p>
+    <div class="profile-actions profile-actions--centered">
+      <a class="profile-button profile-button--light" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a class="profile-button profile-button--outline-light" href="https://www.linkedin.com/in/antonio-olivas-martinez-490236198/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </section>
 </div>
