@@ -3,11 +3,18 @@ permalink: /about/
 title: "About"
 ---
 
-I am a biostatistician and physician who develops statistical methods for consequential questions in health research. I am currently a **Postdoctoral Researcher** in the **Department of Biostatistics, Epidemiology, and Informatics** at the **University of Pennsylvania**, where I am affiliated with the **Center for Causal Inference** and the **Center for Health Innovations in Reproductive and Perinatal Population Research (CHIRP)**.
+I am a biostatistician and physician currently working as a **Postdoctoral Researcher** in the **Department of Biostatistics, Epidemiology, and Informatics** at the **University of Pennsylvania**. I am affiliated with the **Center for Causal Inference** and the **Center for Health Innovations in Reproductive and Perinatal Population Research (CHIRP)**.
 
-My methodological work focuses on **causal inference at the intersection with semiparametric theory**. I develop methods for settings with unmeasured confounding, continuous exposures, and ill-posed inverse problems. I also study the design and analysis of active-controlled non-inferiority trials. Within CHIRP, I contribute to prediction models for _in vitro_ fertilization outcomes.
+My interest in mathematics began with math olympiads, which I started participating in during middle school. I went on to study mathematics and medicine at the University of Sonora and later trained in internal medicine. While working on medical studies, I became increasingly interested in a question behind every clinical conclusion: _How do we know the evidence is reliable?_
 
-My clinical and applied background shapes the questions I pursue. I have collaborated on research in cardiac resynchronization therapy, cancer screening, infectious diseases, gastroenterology, oncology, and COVID-19. Across these areas, my goal is the same: develop and apply methods that make biomedical evidence more rigorous, interpretable, and useful for decisions.
+That question led me to biostatistics. At the University of Washington, I learned to approach health research from both theoretical and applied perspectives. Today, I combine mathematical rigor, clinical context, and statistical reasoning in methodological and collaborative biomedical research.
+
+Outside work, I enjoy running and hiking.
+
+<figure class="about-personal-photo">
+  <img src="{{ '/assets/images/mt-st-helens-summit.jpg' | relative_url }}" alt="Antonio Olivas-Martinez at the summit of Mount St. Helens, with the crater and distant mountains behind him" width="1800" height="1350" loading="lazy">
+  <figcaption>At the summit of Mount St. Helens.</figcaption>
+</figure>
 
 ## Training
 
