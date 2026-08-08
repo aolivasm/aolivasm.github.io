@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-I develop statistical methods for causal inference, clinical trials, and prediction, motivated by problems in biomedical and public health research. My work emphasizes transparent assumptions, flexible estimation, and tools that other researchers can use.
+I develop statistical methods for causal inference in complex settings, with particular interest in semiparametric theory, unmeasured confounding, proxy variables, and inverse problems. My work is motivated by problems in biomedical and public health research, with an emphasis on transparent assumptions, flexible estimation, and tools that other researchers can use.
 
 ## Methodological work
 

@@ -5,7 +5,11 @@ layout: single
 author_profile: true
 ---
 
-Examples of my applied work and analyses.
+Examples of my current projects and published applied work.
+
+## Current work: SART IVF prediction models
+
+Within CHIRP, I am contributing to an update of the IVF prediction models developed for the **Society for Assisted Reproductive Technology (SART)**. This ongoing work focuses on evaluating and revising models used to estimate IVF outcomes.
 
 ## Cardiac Resynchronization Therapy (CRT)
 - Sudesh S, Abraham WT, Cleland JG, Curtis AB, Friedman DJ, Gold MR, Kutyifa V, Linde C, Tang AS, **Olivas-Martinez A**, Inoue LYT. *Cardiac resynchronization therapy in ischemic versus nonischemic cardiomyopathy: patient-level meta-analysis of 7 randomized clinical trials.* Heart Failure. 2024;12(11):1915–24. [DOI](https://www.jacc.org/doi/10.1016/j.jchf.2024.08.010)

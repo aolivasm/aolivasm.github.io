@@ -1,7 +1,7 @@
 title: "Antonio Olivas-Martinez"
 title_separator: "|"
 email: aolivasm@upenn.edu
-description: "Biostatistician and physician developing causal inference, clinical trial, and prediction methods for health research."
+description: "Biostatistician and physician developing causal inference methods for complex settings in health research."
 url: "https://aolivasm.github.io"
 baseurl: ""
 repository: "aolivasm/aolivasm.github.io"
@@ -49,7 +49,7 @@ plugins:
 author:
   name   : "Antonio Olivas-Martinez"
   avatar : "/assets/images/bio-antonio.jpg"
-  bio    : "Biostatistician and physician developing causal inference and prediction methods for health research."
+  bio    : "Biostatistician and physician developing causal inference methods for complex settings in health research."
   location: "Philadelphia, Pennsylvania"
   links:
     - label: "Email"
