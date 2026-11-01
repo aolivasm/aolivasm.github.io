@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-My methodological research lies at the intersection of causal inference and semiparametric theory. I am particularly interested in addressing unmeasured confounding using instrumental variables, proxy information, and sensitivity analysis, while allowing for flexible statistical modeling. My work also investigates estimation and regularization in ill-posed inverse problems.
+My methodological research lies at the intersection of causal inference and semiparametric theory. I am particularly interested in addressing unmeasured confounding using instrumental variables, proxy variables, and sensitivity analysis, while allowing for flexible statistical modeling. My work also investigates estimation and regularization in ill-posed inverse problems.
 
 ## Methodological work
 
