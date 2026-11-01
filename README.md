@@ -7,7 +7,6 @@ The site highlights:
 - methodological research in causal inference and clinical trials;
 - research software for proximal modified treatment policies and non-inferiority trial design;
 - selected applied biomedical collaborations; and
-- a scientific communication series on modified treatment policies.
 
 ## Local development
 
