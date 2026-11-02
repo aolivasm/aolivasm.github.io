@@ -5,7 +5,7 @@ title: "About"
 
 I am a biostatistician and physician currently working as a **Postdoctoral Researcher** in the **Department of Biostatistics, Epidemiology, and Informatics** at the **University of Pennsylvania**. I am affiliated with the **Center for Causal Inference** and the **Center for Health Innovations in Reproductive and Perinatal Population Research (CHIRP)**.
 
-At Penn, my postdoctoral work is mentored by **Eric Tchetgen Tchetgen**, **Enrique Schisterman**, and **Ellen Caniglia**. My current projects include methodological research on causal inference in complex settings and, within CHIRP, updating the SART IVF prediction models.
+At Penn, I work with **Eric Tchetgen Tchetgen**, **Enrique Schisterman**, and **Ellen Caniglia**. My research includes methodological work on causal inference and semiparametric theory, as well as the development and validation of clinical prediction models in reproductive medicine.
 
 My interest in mathematics began with math olympiads, which I started participating in during middle school. I went on to study mathematics and medicine at the University of Sonora and later trained in internal medicine. While working on medical studies, I became increasingly interested in a question behind every clinical conclusion: _How do we know the evidence is reliable?_
 
@@ -27,6 +27,6 @@ Outside work, I enjoy running and hiking.
 
 ## Research interests
 
-Causal inference · Semiparametric theory · Unmeasured confounding · Proximal inference · Sensitivity analysis · Inverse problems · Flexible estimation
+Causal inference · Semiparametric theory · Unmeasured confounding · Proximal inference · Instrumental variables · Sensitivity analysis · Inverse problems · Flexible estimation
 
 For publications and current projects, visit my [research page](/research/), [Google Scholar](https://scholar.google.com/citations?user=ItjU968AAAAJ&hl=en), or [GitHub](https://github.com/aolivasm).
