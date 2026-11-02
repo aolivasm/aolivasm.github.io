@@ -24,9 +24,3 @@ Outside work, I enjoy running and hiking.
 - **Internal Medicine**, Universidad Nacional Autónoma de México / Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, 2019
 - **Medical Degree**, University of Sonora, 2014
 - **BMath, Mathematics**, University of Sonora, 2008
-
-## Research interests
-
-Causal inference · Semiparametric theory · Unmeasured confounding · Proximal inference · Instrumental variables · Sensitivity analysis · Inverse problems · Flexible estimation
-
-For publications and current projects, visit my [research page](/research/), [Google Scholar](https://scholar.google.com/citations?user=ItjU968AAAAJ&hl=en), or [GitHub](https://github.com/aolivasm).
