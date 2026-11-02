@@ -5,11 +5,9 @@ layout: single
 author_profile: true
 ---
 
-Examples of my current projects and published applied work.
-
 ## Current work: SART IVF prediction models
 
-Within CHIRP, I am contributing to an update of the IVF prediction models developed for the **Society for Assisted Reproductive Technology (SART)**. This ongoing work focuses on evaluating and revising models used to estimate IVF outcomes.
+I lead the statistical development and validation of updated prediction models for in *vitro fertilization (IVF)* outcomes using national registry data from the **Society for Assisted Reproductive Technology (SART)**.
 
 ## Cardiac Resynchronization Therapy (CRT)
 - Sudesh S, Abraham WT, Cleland JG, Curtis AB, Friedman DJ, Gold MR, Kutyifa V, Linde C, Tang AS, **Olivas-Martinez A**, Inoue LYT. *Cardiac resynchronization therapy in ischemic versus nonischemic cardiomyopathy: patient-level meta-analysis of 7 randomized clinical trials.* Heart Failure. 2024;12(11):1915–24. [DOI](https://www.jacc.org/doi/10.1016/j.jchf.2024.08.010)
@@ -21,7 +19,7 @@ Within CHIRP, I am contributing to an update of the IVF prediction models develo
 - Friedman DJ, Al-Khatib SM, Dalgaard F, Fudim M, Abraham WT, Cleland JGF, Curtis AB, Gold MR, Kutyifa V, Linde C, Tang AS, Ali-Ahmed F, **Olivas-Martinez A**, Inoue LYT, Sanders GD. *Cardiac Resynchronization Therapy Improves Outcomes in Patients With Intraventricular Conduction Delay But Not Right Bundle Branch Block: A Patient-Level Meta-Analysis of Randomized Controlled Trials.* Circulation. 2023;147(10):812–823. [DOI](https://doi.org/10.1161/CIRCULATIONAHA.122.062124)
 
 ## COVID-19 Research in Mexico
-- Hedlin H, Tobback E, Lee J, Wang Y, Dragoni I, Anthony DC, Dhaliwal K, Norrie J, Halford S, Gotes J, Moctezuma M, **Olivas-Martinez A**, et al. *Individual Patient Data Meta-Analysis evaluating Camostat Mesilate to Treat COVID-19 in Community Settings.* medRxiv. 2024. [medRxiv](https://www.medrxiv.org/content/10.1101/2024.05.15.24307072v1)
+- Hedlin H, Tobback E, Lee J, Wang Y, Dragoni I, Anthony DC, Dhaliwal K, Norrie J, Halford S, Gotes J, Moctezuma M, **Olivas-Martinez A**, et al. *Individual Patient Data Meta-Analysis evaluating Camostat Mesilate to Treat COVID-19 in Community Settings.* J Clin Transl Sci. 2026;10(1):e110. [DOI](https://doi.org/10.1017/cts.2026.10769)
 - Azamar-Llamas A, Arenas-Martinez JS, **Olivas-Martinez A**, et al. *Impact of COVID-19 vaccination on liver transplant recipients. Experience in a reference center in Mexico.* PLoS One. 2024;19(3):e0301198. [DOI](https://doi.org/10.1371/journal.pone.0301198)
 - Corona-Rodarte E, **Olivas-Martinez A**, Solis-Pompa R, Cano-Aguilar LE, Asz-Sigall D, Ferrusco-Ontiveros MD, Soto-Ortiz JA, Burgos-Mora L. *Delay in the diagnosis and management of suspicious malignant skin lesions during the COVID-19 pandemic in a reference centre in Mexico.* JEADV. 2023. [DOI](https://doi.org/10.1111/jdv.19109)
 - Gasca NC, Reyes-Garza J, Lozano-Esparza S, Orozco-del Pino P, **Olivas-Martinez A**, Ulloa-Pérez E, Garbuno-Inigo A, Arroyo J. *Effect of Mexico’s vaccination program on Covid-19 cases, hospitalizations, and deaths among older adults in Mexico City.* Salud Publica Mex. 2022;64(4):424–428. [DOI](https://doi.org/10.21149/13402)
@@ -34,6 +32,7 @@ Within CHIRP, I am contributing to an update of the IVF prediction models develo
 - Ortiz-Brizuela E, Villanueva-Reza M, González-Lara MF, Tamez-Torres KM, Román-Montes C, Díaz-Mejía B, Pérez-García E, **Olivas-Martinez A**, et al. *Clinical and epidemiological characteristics of patients diagnosed with COVID-19 in a tertiary care center in Mexico City: a prospective cohort study.* Rev Invest Clin. 2020;72(3):165–177. [DOI](https://doi.org/10.24875/RIC.20000211)
 
 ## Gastroenterology and Liver Diseases
+- Torres-Díaz JA, **Olivas-Martinez A**, Ruiz-Manríquez JA. *Performance of the MAFLD-S score for noninvasive screening of metabolic dysfunction-associated steatotic liver disease (MASLD) in primary care settings*. Revista de Gastroenterología de México. 2026. [DOI](https://doi.org/10.1016/j.rgmx.2025.12.013)
 - Ruiz-Manríquez J, Feria-Agudelo SM, **Olivas-Martinez A**, et al. *Granulomatous Liver Disease in a Referral Center in Mexico City.* Annals of Hepatology. 2025;102108. [DOI](https://doi.org/10.1016/j.aohep.2025.102108)
 - Ruiz-Manriquez J, **Olivas-Martinez A**, Mier y Teran-Ellis S, et al. *Complications in Patients with Surgically Altered Gastrointestinal Anatomy Undergoing Endoscopic Retrograde Cholangiopancreatography: 15-Year Experience at a Tertiary Care Center in Latin America.* Dig Dis Sci. 2024. [DOI](https://doi.org/10.1007/s10620-024-08516-4)
 - Fernández-Ramírez A, **Olivas-Martinez A**, Ruiz-Manriquez J, et al. *Posttransplantation diabetes mellitus after liver transplant and the impact of family history of diabetes in a Mexican cohort.* Rev Gastroenterol Mex (Eng Ed). 2024;89(2):249–57. [DOI](https://doi.org/10.1016/j.rgmxen.2023.06.002)
@@ -62,6 +61,8 @@ Within CHIRP, I am contributing to an update of the IVF prediction models develo
 - Vidal-Mayo JJ, **Olivas-Martínez A**, Pérez-Díaz I, et al. *Calculated Versus Measured Urine Osmolarity: Accuracy of Estimated Urine Density.* Rev Invest Clin. 2018;70(6):310–8. [DOI](https://doi.org/10.24875/RIC.18002598)
 
 ## Global Burden of Disease Collaborations
+- GBD 2023 HIV Collaborators. *Global, regional, and national burden of HIV/AIDS, 1990–2023, with the estimated burden attributable to intimate partner violence and forecasted impacts of funding cuts through 2030: results from the Global Burden of Disease Study 2023.* Lancet HIV. 2026 Aug 18: :S2352-3018(26)00147-5. [DOI](https://doi.org/10.1016/S2352-3018(26)00147-5)
+- GBD 2023 TB VIH Collaborators. *Global, regional, and national burden of tuberculosis and multidrug-resistant tuberculosis by HIV status, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023.* Lancet Infect Dis. 2026;26(11):1106-1130. [DOI](https://doi.org/10.1016/S1473-3099(26)00295-1)
 - GBD 2023 Vaccine Coverage Collaborators. *Global, regional, and national trends in routine childhood vaccination coverage from 1980 to 2023 with forecasts to 2030: a systematic analysis for the Global Burden of Disease Study 2023.* Lancet. 2025 Jul 19. 406(10500), pp.235-260. [DOI](https://doi.org/10.1016/S0140-6736(25)01037-2)
 - GBD 2021 Antimicrobial Resistance Collaborators. *Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050.* Lancet. 2024 Sep 18. 404(10459):1199–1226. [DOI](https://doi.org/10.1016/S0140-6736(24)01867-1)
 - GBD 2021 Lower Respiratory Infections and AMR Collaborators. *Global, regional, and national incidence and mortality burden of non-COVID-19 lower respiratory infections and aetiologies, 1990–2021: a systematic analysis from the Global Burden of Disease Study 2021.* Lancet Infect Dis. 2024 Apr 15:S1473-3099(24)00176-2. [DOI](https://doi.org/10.1016/S1473-3099(24)00176-2)
