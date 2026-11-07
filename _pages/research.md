@@ -13,9 +13,9 @@ My methodological research lies at the intersection of causal inference and semi
   Develops a framework that combines instrumental variable assumptions with marginal sensitivity models to obtain sharp bounds on causal effects under unmeasured confounding. The paper characterizes the identified sets and develops cross-fitted estimators and confidence sets for valid statistical inference.<br>
   [Preprint](https://arxiv.org/abs/2610.22513)· [R implementation](https://github.com/aolivasm/iv-msm-sa)
 
-- **Proximal Causal Inference for Modified Treatment Policies** — with Peter B. Gilbert and Andrea Rotnitzky, *arXiv preprint* (2025).<br>
+- **Proximal Causal Inference for Modified Treatment Policies** — with Peter B. Gilbert and Andrea Rotnitzky, acceped for publication in *Biometrics* (2026).<br>
   Extends proximal causal inference to continuous exposures and realistic treatment modifications in settings with unmeasured confounding, using negative controls and debiased machine learning. Motivated by vaccine immunobridging studies.<br>
-  [Preprint](https://arxiv.org/abs/2512.12038)· Acceped for publication in *Biometrics* [R implementation](https://github.com/aolivasm/proxi-mtp)
+  [Preprint](https://arxiv.org/abs/2512.12038)· [R implementation](https://github.com/aolivasm/proxi-mtp)
 
 - **Source-Condition Analysis of Kernel Adversarial Estimators** — with Andrea Rotnitzky, *arXiv preprint* (2025).<br>
   Finite-sample analysis of RKHS-regularized adversarial estimators for ill-posed regression, comparing their stability and assumptions with existing methods.<br>
